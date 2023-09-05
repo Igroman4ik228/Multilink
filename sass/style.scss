@@ -1,0 +1,228 @@
+body {
+    background-image: url(../img/summer.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.main {
+    background: rgba(199, 191, 28, 0.15);
+    backdrop-filter: blur(1.25px);
+    width: 595px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.logo img,
+.logo button {
+    border-radius: 50%;
+}
+
+
+
+.desc {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    background: rgba(245, 231, 98, 0.70);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    filter: blur(0.25px);
+    width: 400px;
+    padding: 10px 10px;
+    margin-top: 15px;
+}
+
+.title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+    text-shadow: 2px 1px 2px black;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 10px;
+}
+
+
+
+
+a {
+    color: white;
+}
+
+.links,
+.link-1,
+.link-2,
+.link-3,
+.link-4,
+.link-5 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center
+}
+
+.link-1 {
+    margin-top: 15px;
+}
+
+.link-yt {
+    border-radius: 24px;
+    background: radial-gradient(100% 100.00% at 50.00% 0%, rgba(255, 255, 255, 0.35) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(180deg, rgba(220, 71, 61, 0.90) 0%, rgba(172, 19, 26, 0.90) 100%);
+    box-shadow: 0px 4px 50px 0px rgba(194, 87, 82, 0.80);
+    padding: 25px 110px;
+    margin-top: -13px;
+}
+
+.link-yt-hover {
+    opacity: 0;
+    transition: opacity 0.5s;
+    border-radius: 24px;
+    background: radial-gradient(100% 100.00% at 50.00% 0%, rgba(255, 255, 255, 0.35) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(180deg, rgba(220, 71, 61, 0.90) 0%, rgba(172, 19, 26, 0.90) 100%);
+    box-shadow: 0px 4px 50px 0px rgba(194, 87, 82, 0.80);
+    padding: 25px 110px;
+    margin-top: -80px;
+}
+
+.link-yt-hover:hover {
+    opacity: 1;
+    background: radial-gradient(100% 100.00% at 50.00% 0%, rgba(255, 255, 255, 0.45) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(180deg, #F14F44 0%, #C30009 100%);
+    box-shadow: 0px 4px 50px 0px rgba(194, 87, 82, 0.80);
+}
+
+
+.link-2 {
+    margin-top: 15px;
+}
+
+.link-tl {
+    border-radius: 24px;
+    background: radial-gradient(100% 100.00% at 50.00% 0%, rgba(255, 255, 255, 0.35) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(180deg, rgba(57, 139, 197, 0.90) 0%, rgba(9, 129, 189, 0.90) 100%);
+    box-shadow: 0px 4px 50px 0px rgba(60, 149, 202, 0.80);
+    margin-top: -10px;
+    padding: 25px 103px;
+}
+
+.link-tl-hover {
+    opacity: 0;
+    border-radius: 24px;
+    transition: opacity 0.5s;
+    background: radial-gradient(100% 100.00% at 50.00% 0%, rgba(255, 255, 255, 0.35) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(180deg, rgba(57, 139, 197, 0.90) 0%, rgba(9, 129, 189, 0.90) 100%);
+    box-shadow: 0px 4px 50px 0px rgba(60, 149, 202, 0.80);
+    margin-top: -80px;
+    padding: 25px 103px;
+}
+
+.link-tl-hover:hover {
+    opacity: 1;
+    border-radius: 24px;
+    background: radial-gradient(100% 100.00% at 50.00% 0%, rgba(255, 255, 255, 0.35) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(180deg, #45A3E5 0%, #028BCF 100%);
+    box-shadow: 0px 4px 50px 0px rgba(60, 149, 202, 0.80);
+}
+
+.link-3 {
+    margin-top: 15px;
+}
+
+.link-inst {
+    border-radius: 24px;
+    border-radius: 24px;
+    background: radial-gradient(100% 100.00% at 50.00% 0%, rgba(255, 255, 255, 0.35) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(180deg, rgba(121, 60, 163, 0.90) 1.04%, rgba(195, 68, 140, 0.90) 21.35%, rgba(236, 44, 109, 0.90) 100%);
+    box-shadow: 0px 4px 40px 0px rgba(188, 74, 128, 0.80);
+    margin-top: -17px;
+    padding: 25px 97px;
+}
+
+.link-inst-hover {
+    opacity: 0;
+    border-radius: 24px;
+    transition: opacity 0.5s;
+    border-radius: 24px;
+    background: radial-gradient(100% 100.00% at 50.00% 0%, rgba(255, 255, 255, 0.35) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(180deg, rgba(121, 60, 163, 0.90) 1.04%, rgba(195, 68, 140, 0.90) 21.35%, rgba(236, 44, 109, 0.90) 100%);
+    box-shadow: 0px 4px 40px 0px rgba(188, 74, 128, 0.80);
+    padding: 25px 97px;
+    margin-top: -80px;
+}
+
+.link-inst-hover:hover {
+    opacity: 1;
+    border-radius: 24px;
+    background: radial-gradient(100% 100.00% at 50.00% 0%, rgba(255, 255, 255, 0.45) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(180deg, #833AB4 1.04%, #DE3494 21.35%, #ED2C6E 100%);
+    box-shadow: 0px 4px 40px 0px rgba(188, 74, 128, 0.80);
+}
+
+.link-4 {
+    margin-top: 15px;
+}
+
+.link-vk {
+    border-radius: 24px;
+    background: radial-gradient(100% 100.00% at 50.00% 0%, rgba(255, 255, 255, 0.35) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(180deg, rgba(66, 121, 207, 0.90) 0%, rgba(17, 94, 197, 0.90) 100%);
+    box-shadow: 0px 4px 40px 0px rgba(53, 122, 218, 0.80);
+    padding: 25px 99px;
+    margin-top: -9px;
+
+}
+
+.link-vk-hover {
+    opacity: 0;
+    border-radius: 24px;
+    transition: opacity 0.5s;
+    background: radial-gradient(100% 100.00% at 50.00% 0%, rgba(255, 255, 255, 0.35) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(180deg, rgba(66, 121, 207, 0.90) 0%, rgba(17, 94, 197, 0.90) 100%);
+    box-shadow: 0px 4px 40px 0px rgba(53, 122, 218, 0.80);
+    padding: 25px 99px;
+    margin-top: -80px;
+}
+
+.link-vk-hover:hover {
+    opacity: 1;
+    border-radius: 24px;
+    background: radial-gradient(100% 100.00% at 50.00% 0%, rgba(255, 255, 255, 0.45) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(180deg, #468EFF 0%, #0061E4 100%);
+    box-shadow: 0px 4px 40px 0px rgba(53, 122, 218, 0.80);
+}
+
+.link-5 {
+    margin-top: 15px;
+}
+
+.link-wh {
+    border-radius: 24px;
+    background: radial-gradient(100% 100.00% at 50.00% 0%, rgba(255, 255, 255, 0.35) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(180deg, rgba(100, 203, 118, 0.90) 0%, rgba(67, 229, 96, 0.90) 100%);
+    box-shadow: 0px 4px 40px 0px rgba(93, 215, 117, 0.80);
+    padding: 25px 98px;
+    margin-top: -7px;
+}
+
+.link-wh-hover {
+    opacity: 0;
+    border-radius: 24px;
+    transition: opacity 0.5s;
+    background: radial-gradient(100% 100.00% at 50.00% 0%, rgba(255, 255, 255, 0.35) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(180deg, rgba(100, 203, 118, 0.90) 0%, rgba(67, 229, 96, 0.90) 100%);
+    box-shadow: 0px 4px 40px 0px rgba(93, 215, 117, 0.80);
+    padding: 25px 98px;
+    margin-top: -80px;
+}
+
+.link-wh-hover:hover {
+    opacity: 1;
+    background: radial-gradient(100% 100.00% at 50.00% 0%, rgba(255, 255, 255, 0.35) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(180deg, rgba(100, 203, 118, 0.90) 0%, rgba(67, 229, 96, 0.90) 100%);
+    box-shadow: 0px 4px 40px 0px rgba(93, 215, 117, 0.80);
+}
+
+.text {
+    margin-top: 50px;
+    font-family: 'Segoe Script', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
